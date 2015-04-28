@@ -9,12 +9,12 @@ IDE provides a web-based development environment.  They also allow you to use yo
 useage is free.  Time will time, but this seems like a very reasonable approach to many of my work requirements.
 
 ### Prerequisites   
-Before you can experience the goosebumps associated with writing code in the cloud there's a few things you'll need first:
+Before you can experience the goosebumps associated with writing code in the cloud, there's a few things you'll need first:
 * [DigitalOcean](https://www.digitalocean.com/) account
 * [Cloud9](https://c9.io/) account.  You can use your GitHub credentials
 * [SSH](http://en.wikipedia.org/wiki/Secure_Shell) key pair.  Since you're using GitHub, you probably have a SSH key pair already. But to create a new pair:
   - from [Windows](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-putty-on-digitalocean-droplets-windows-users)
-  - from [Mac OS X or Linux]https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets)
+  - from [Mac OS X or Linux](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets)
   - **Note**: I'm not sure you need to copy your public key to DigitalOcean.  However, you'll definitely need it later.
 * Fork this repo
 * Clone your forked repo to your desktop
@@ -66,8 +66,8 @@ Now that you have a dev box in the cloud, create a Cloud9 workspace that leverag
 
 ### Caveat Emptor
 Some things to keep in mind:   
-* This is a Linux-based environment.  If you have Windows requirements, you might want to try using Azure   
-* This workflow (incl. cloud-init.sh) has been tested...but only a few times.  If there's something wrong, or missing please fix and submit a pull request
+* This is a Linux-based environment.  If you have Windows requirements, you might want to try using Azure.   
+* This workflow (incl. cloud-init.sh) has been tested...but only a few times.  If there's something wrong, or missing please fix and submit a pull request.   
 
 ### What's in the box? 
 Mostly just your standard Linux dev tools:   
@@ -76,4 +76,5 @@ Mostly just your standard Linux dev tools:
 * **Languages**: Python, Perl, Node.js   
 * **Misc**: [cig](https://github.com/stevenjack/cig) is a command-line utility for identifying & reporting changes to your git repos.  It's pre-configured to track repos under */home/username/projects/*.  If 
 you want to clone your repos into a different sub-directory, you'll need to change cloud-init.sh.
+* **SSH**: Root access has been disabled   
 
