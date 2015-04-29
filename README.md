@@ -72,7 +72,7 @@ Some things to keep in mind:
 ### What's in the box? 
 Mostly just your standard Linux dev tools:   
 * **Version Control**: git, mercurial, subversion   
-* **Utilities**: wget, curl, make, vim, tree   
+* **Utilities**: wget, curl, make, vim, tree, docker   
 * **Languages**: Python, Perl, Node.js   
 * **Misc**: [cig](https://github.com/stevenjack/cig) is a command-line utility for identifying & reporting changes to your git repos.  It's pre-configured to track repos under */home/username/projects/*.  If 
 you want to clone your repos into a different sub-directory, you'll need to change cloud-init.sh.
